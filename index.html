@@ -3,60 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Meu perfil</title>
 </head>
 <body>
 
-    <ul>
-        <li>
-            <a href="index.html">Home</a></li>
-        <li>
-            <a href="contato.html">Contatos</a>
-        </li>
-    </ul>
+    <header class="l-header">
+        <nav class="nav">
+            <div class="logo-container">
+                <a href="#" class="nav__logo">Marlon</a>
+            </div>
 
-    <h2 style="text-align: center">Sobre mim</h2>
+            <div class="nav__menu" >
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#video" class="nav__link ">Vídeo</a></li>
+                </ul>
+            </div>
 
-    <div style="text-align: center">
-    <img src="assets/marlon4.jpeg" alt="Foto do autor desse projeto" style="width: 210px; height: 200px; border-radius:
-     50%; left: 50%; right: 50%">
-    </div>
+        </nav>
+    </header>
 
-    <h1 style="text-align: center">Marlon Silva</h1>
 
-    <p style="text-align: center">Primeiramente bom dia/tarde/noite a todos, eu me chamo Marlon tenho 19 anos e sou natural do estado de Alagoas,
-        estado esse no qual eu  vivi boa parte da minha infância, porém quando eu tinha entre 6 a 7 anos minha família
-        se mudou em busca de melhores condições de vida  para o estado de são paulo,  mais precisamente para cidade de
-        guarulhos que é onde eu moro até hoje.
-        O meu primeiro contato com o mundo da tecnologia aconteceu por volta dos meus 13 anos que foi quando consegui
-        realizar um curso de informática básica que por coincidência, tinha como professor um programador, que foi o
-        responsável por me apresentar a programação,e logo fiquei fascinado por esse mundo com tantas possibilidades,
-        e decidi tomar como objetivo pessoal ingressar nessa área. Aos meus  17 anos, logo após terminar o E.M eu
-        consegui uma bolsa de 100% para cursar Sistemas de informação, curso no qual atualmente estou no 6º semestre.
-        No último quadrimestre eu fiz parte dos 11% de 800 pessoas que foram aprovadas para poder participar de um
-        bootcamp em tempo integral com duração de 3 meses, que tinha como objetivo formar pessoas desenvolvedoras
-        Java jr Full Stack e simular a rotina de um, e foi um período no qual eu pude aprender muito, desde as
-        habilidades técnicas quanto as comportamentais.
-        bom, essa foi a minha vida trajetória até aqui, trajetória essa responsável por moldar minha personalidade que
-        tem como base alguns valores, tais como a responsabilidade, empatia
-        e gratidão. Eu sou o tipo de pessoa que se entrega 110% em tudo que faz, pois pra mim não faz sentido eu fazer
-        algo e nao dar o meu melhor possível, eu não tenho medo de errar
-        mas sim de não ter a oportunidade de tentar, e isso faz com que eu esteja em uma constante busca por
-        conhecimentos para que eu esteja pronto para quando o meu SIM chegar.
-        Bom, esta foi uma pequena prévia de quem eu sou, e para finalizar eu gostaria de parafrasear uma frase que eu
-        gosto muito que diz que toda grande jornada começa com um pequeno passo, e para que eu possa trilhar essa grande
-        jornada eu só preciso de uma oportunidade.
-        Eu me chamo Marlon e agradeço pela atenção de todos, obrigado.
-    </p>
+    <section class="home bd-grid" id="home">
+        <div class="home__data">
+            <h1 class="home__title">Oi,<br>me chamo  <span class="home__title-color">Marlon</span><br> e sou Java júnior developer</h1>
 
-    <h2 style="text-align: center">Meu video predileto</h2>
+            <a href="contato.html" class="button-animation">Contatos</a>
+        </div>
 
-    <div style="text-align: center">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/cJQtCf9QZwE"
-            title="YouTube video player" allow="accelerometer; autoplay;
-             clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-    </iframe>
-    </div>
+        <div class="home__social">
+            <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+            <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+        </div>
 
+        <div class="home__img">
+            <img src="assets/img/marlon4.jpeg" alt="foto do criador deste projeto" >
+        </div>
+    </section>
+
+
+    <section class="video-section" id="video">
+        <iframe width="655.41" height="315" src="https://www.youtube.com/embed/cJQtCf9QZwE"
+                title="YouTube video player" allow="accelerometer; autoplay;
+                 clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius: 5px">
+        </iframe>
+
+        <h2 >Meu vídeo predileto</h2>
+    </section>
+
+    <footer id="footer-index">
+        <p>
+            Todos os direitos reservados para Marlon Silva &copy;
+        </p>
+    </footer>
 </body>
 </html>
